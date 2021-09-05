@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+
 class Tv(metaclass=ABCMeta):
     @abstractmethod
     def on(self):
@@ -37,7 +38,7 @@ class RCATv(Tv):
         print("powering on")
 
     def off(self):
-        print("see you soon")
+        print("turning off, see you soon")
 
     def tunechannel(self, *args, **kwargs):
         return self.channels
