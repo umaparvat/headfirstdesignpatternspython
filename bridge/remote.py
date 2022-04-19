@@ -1,11 +1,14 @@
 """
-Scenario: The Remote functionality is same for all the Smart TV.But There can be different TV brands Sony, LG, Samsung.
-How to combine Remote with Tv.So that whenever user presses a button the TV respond.
+Scenario: The Remote functionality is same for all the Smart TV.
+But There can be different TV brands Sony, LG, Samsung.
+How to combine Remote with Tv.
+So that whenever user presses a button the TV respond.
 
 Solution: Create Remote and bridge with TV.
 Below is the bridge pattern used to provide the solution.
 
-The Remote can work irrespective of TV. Whatever varies in the remote class you can override in concreteRemote class.
+The Remote can work irrespective of TV.
+Whatever varies in the remote class you can override in concreteRemote class.
 
 
 """
